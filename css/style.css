@@ -125,14 +125,14 @@
 }
 .timeline-header {
   width: 100%;
-  text-align: center;
+  margin-left: 40px;
   margin-bottom: 80px;
   position: relative;
 }
 .timeline-header__title {
   color: #fff;
   font-size: 46px;
-  font-family: Cardo;
+  font-family: "Sans-Serif", Cardo;
   font-weight: normal;
   margin: 0;
 }
