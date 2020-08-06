@@ -173,10 +173,11 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #e6e6e6;
+  background-image: url(https://zekokao.com.br/img/01.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 540px;
   
 }
 
