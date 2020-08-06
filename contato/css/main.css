@@ -175,9 +175,9 @@ iframe {
   flex-wrap: wrap;
   align-items: center;
   padding: 15px;
-  background-image: url(https://zekokao.com.br/img/bg.png);
+  background-image: url(https://zekokao.com.br/img/01.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-x: 540px;
   
 }
 
