@@ -140,7 +140,7 @@ body {
   font-weight: normal;
   margin: 0;
 }
-.timeline-header__title a {
+.timeline-header__subtitle a {
     font-family: Poppins-Regular;
     font-size: 14px;
     line-height: 1.7;
