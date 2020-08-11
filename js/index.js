@@ -14,14 +14,14 @@
       var max, min;
       var pos = $(this).scrollTop();
       selectors.item.each(function(i) {
-        min = $(this).offset().top - 650;
-        max = ($(this).height() + $(this).offset().top - 650);
+        min = $(this).offset().top - 450;
+        max = ($(this).height() + $(this).offset().top - 450);
         var that = $(this)
         if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.id.css("background-image", "url(" + selectors.item.last().find(selectors.img).attr('src') + ")");
           selectors.item.last().addClass(selectors.activeClass)
-        } else if (pos <= max - 420 && pos >= min) {
+        } else if (pos <= max - 120 && pos >= min) {
             selectors.id.css("background-image", "url(" + $(this).find(selectors.img).attr('src') + ")");
             selectors.item.removeClass(selectors.activeClass);
             $(this).addClass(selectors.activeClass);
