@@ -22,12 +22,11 @@ body {
 }
 .timeline__content-desc {
   margin: 0;
-  font-size: 15px;
+  font-size: 25px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
+  font-family: Calibri, Cardo;
   font-weight: normal;
-  line-height: 25px;
 }
 .timeline:before {
   position: absolute;
