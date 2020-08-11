@@ -14,7 +14,7 @@
       var max, min;
       var pos = $(this).scrollTop();
       selectors.item.each(function(i) {
-        min = $(this).offset().top;
+        min = $(this).offset().top - 50;
         max = ($(this).height() + $(this).offset().top);
         var that = $(this)
         if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
