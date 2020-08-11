@@ -152,6 +152,10 @@ body {
     -webkit-transition: all 0.4s;
     text-decoration: none;
 }
+.timeline-header__subtitle a:hover {
+    border-bottom: 1px #e2e2e2 dashed;
+    padding-bottom: 3px;
+}
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Pathway Gothic One", sans-serif;
