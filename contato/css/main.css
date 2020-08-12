@@ -175,10 +175,6 @@ iframe {
   flex-wrap: wrap;
   align-items: center;
   padding: 15px;
-  background-image: url(https://zekokao.com.br/img/01.jpg);
-  background-repeat: no-repeat;
-  background-position-x: 540px;
-  
 }
 
 .wrap-contact100 {
@@ -187,6 +183,7 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 62px 55px 90px 55px;
+  margin: 0 auto;
 }
 
 
